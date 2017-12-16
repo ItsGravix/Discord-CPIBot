@@ -1,4 +1,4 @@
-package module;
+package org.mcspam.attackbot.module;
 
 public abstract class AbstractModule extends MainUtils {
 

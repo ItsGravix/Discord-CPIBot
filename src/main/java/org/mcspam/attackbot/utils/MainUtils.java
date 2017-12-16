@@ -1,4 +1,4 @@
-package utils;
+package org.mcspam.attackbot.utils;
 
 public class MainUtils {
 

@@ -1,3 +1,5 @@
+package org.mcspam.attackbot;
+
 /**
  * Created by origi on 12/16/2017.
  */

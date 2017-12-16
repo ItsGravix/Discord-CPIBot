@@ -1,4 +1,4 @@
-package module;
+package org.mcspam.attackbot.module;
 
 import com.operabot.module.modules.CommandsModule;
 import com.operabot.module.modules.ConsoleCommandsModule;
