@@ -1,6 +1,8 @@
 package org.mcspam.attackbot.module;
 
-public abstract class AbstractModule extends MainUtils {
+import org.mcspam.attackbot.utils.LogUtils;
+
+public abstract class AbstractModule extends LogUtils {
 
     private String moduleName;
     public long currentTime;

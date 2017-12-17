@@ -1,10 +1,10 @@
 package org.mcspam.attackbot.module.modules;
 
-import com.operabot.module.AbstractModule;
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
+import org.mcspam.attackbot.module.AbstractModule;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +19,6 @@ public class LoggerModule extends AbstractModule {
 
     @Override
     public void onEnable() {
-        System.out.println("[SYSTEM] Starting logger...");
         saveOldLog();
         setLogger();
     }

@@ -1,6 +1,6 @@
 package org.mcspam.attackbot.module.modules;
 
-import com.operabot.module.AbstractModule;
+import org.mcspam.attackbot.module.AbstractModule;
 
 import java.util.Scanner;
 

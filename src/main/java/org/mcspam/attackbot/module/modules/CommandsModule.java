@@ -1,7 +1,7 @@
 package org.mcspam.attackbot.module.modules;
 
-import com.operabot.commands.CommandManager;
-import com.operabot.module.AbstractModule;
+import org.mcspam.attackbot.bot.commands.CommandManager;
+import org.mcspam.attackbot.module.AbstractModule;
 
 public class CommandsModule extends AbstractModule {
 
@@ -13,7 +13,7 @@ public class CommandsModule extends AbstractModule {
 
     @Override
     public void onEnable() {
-        format("SYSTEM", "Starting the command manager");
+        format("SYSTEM", "Loading Command Manager...");
 
         commandManager = new CommandManager();
 
